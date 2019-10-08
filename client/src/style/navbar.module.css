@@ -1,0 +1,112 @@
+.navbar{
+    position: relative;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    background-color: #E40046;
+}
+.logocontainer{
+    
+    position: relative;
+    display: grid;
+    grid-template-columns: 30% 80%;
+
+
+}
+.iconcontainer_div{
+
+    position: relative;
+    display: flex;
+    align-items: center; /* Vertical center alignment */
+    height: 100%;
+    width: 100%;
+}
+.logo_text{
+    
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.logo_text_div{
+    
+    position: relative;
+    display: flex;
+    align-items: center; /* Vertical center alignment */
+}
+.icon{
+    position: absolute;
+  
+    left: 20%;
+    height: 80%;
+    width: 100%;
+    max-width: 70px;
+    max-height: 50px;
+}
+.textlogo{
+    margin: 0px;
+    position: relative;
+    left: 0%;
+    top:0%;
+    color: #ffffff;
+    font-family: 'Raleway',sans-serif; 
+    font-size: 25px; font-weight: 800; 
+
+}
+.searchcontainer{
+    position: relative;
+    display: flex;
+    align-items: center; /* Vertical center alignment */
+}
+.inputsearch{
+
+    border: 0px solid;
+    position: relative;
+    
+    width: 80%;
+    height: 70%;
+    border-radius: 0px;
+}
+.searchbutton{
+    color:white;
+    border: 0px solid;
+    position: relative;
+   
+    width: 20%;
+    height: 73%;
+    background-color: #333333;
+}
+.sign_in_div{
+    position: relative;
+    display: flex;
+    align-items: center; /* Vertical center alignment */
+    justify-content: center; /* Horizontal center alignment */
+}
+.sign_in_text{
+    color: white;
+    text-align: center;
+    margin: 0px;
+    text-overflow: ellipsis;
+}
+.sign_in_hover{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-items: center; /* Vertical center alignment */
+    justify-content: center; /* Horizontal center alignment */
+}
+.sign_in_hover:hover{
+    background-color: #333333;
+}
+@media only screen and (max-width: 1160px) {
+    .textlogo{
+        margin: 0px;
+        position: relative;
+        left: 9%;
+        top:30%;
+        color: #ffffff;
+        font-family: 'Raleway',sans-serif; 
+        font-size: 20px; font-weight: 800; 
+    
+   
+    
+    }
+  }
