@@ -1,9 +1,9 @@
 .home_page_body{
-    height: 140%;
+    height: 100%;
     width: 100%;
     display: grid;
     grid-template-rows: 5% 95%;
-    
+    overflow: hidden;
     background-image: url('./background.jpg');
 }
 
@@ -27,8 +27,7 @@
     grid-template-columns: 100%;
     grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     justify-content: space-evenly;
-    border-radius: 2%;
-    border : 1px solid black;
+
 }
 .leftside{
     border-right:1px solid black;

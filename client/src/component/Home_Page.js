@@ -5,7 +5,7 @@ import style from '../style/homepage.module.css'
 class Home_Page extends React.Component {
     render() {
         return (
-            <div className={style.home_page_body}>
+            <div id="home_page_id" className={style.home_page_body}>
                 <Nav_bar></Nav_bar>
                 <div className={style.books_accueil_container}>
                     <div className={style.leftside}>

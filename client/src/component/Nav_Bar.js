@@ -12,7 +12,9 @@ class Nav_bar extends React.Component{
     }
 
     signin(){
+        
         this.setState({singin:true})
+        console.log(document.querySelector('#home_page_id'))
     }
 
     render(){
