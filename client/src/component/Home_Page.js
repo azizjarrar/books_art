@@ -9,17 +9,18 @@ class Home_Page extends React.Component {
                 <Nav_bar></Nav_bar>
                 <div className={style.books_accueil_container}>
                     <div className={style.leftside}>
+                        <h1 className={style.h1_title}>Category</h1>
                         <div className={style.books_category}>
-                            <div className={style.catergory_name_div}>music<input type="checkbox" className={style.catergory_name}/></div>
-                            <div className={style.catergory_name_div}>Science MiliTary<input type="checkbox" className={style.catergory_name}/> </div>
-                            <div className={style.catergory_name_div}>Library Science<input type="checkbox" className={style.catergory_name}/> </div>
-                            <div className={style.catergory_name_div}>World History<input type="checkbox" className={style.catergory_name}/> </div>
-                            <div className={style.catergory_name_div}>Arts<input type="checkbox" className={style.catergory_name}/> </div>
-                            <div className={style.catergory_name_div}>romance<input type="checkbox" className={style.catergory_name}/> </div>
-                            <div className={style.catergory_name_div}>Technology<input type="checkbox" className={style.catergory_name}/> </div>
-                            <div className={style.catergory_name_div}>Philosoinputhy<input type="checkbox" className={style.catergory_name}/> </div>
-                            <div className={style.catergory_name_div}>auxiliary<input type="checkbox" className={style.catergory_name}/>  </div>
-                            <div className={style.catergory_name_div}>geograph<input type="checkbox" className={style.catergory_name}/> </div>
+                            <div className={style.catergory_name_div}><label class= {style.container}>music<input type="checkbox"  /><span class= {style.checkmark}></span></label></div>
+                            <div className={style.catergory_name_div}><label class= {style.container}>MiliTary<input type="checkbox"  /><span class= {style.checkmark}></span></label> </div>
+                            <div className={style.catergory_name_div}><label class= {style.container}>Science<input type="checkbox"  /><span class= {style.checkmark}></span></label></div>
+                            <div className={style.catergory_name_div}><label class= {style.container}>World History <input type="checkbox"  /><span class= {style.checkmark}></span></label></div>
+                            <div className={style.catergory_name_div}><label class= {style.container}>Arts<input type="checkbox"  /><span class= {style.checkmark}></span></label> </div>
+                            <div className={style.catergory_name_div}><label class= {style.container}>romance<input type="checkbox"  /><span class= {style.checkmark}></span></label></div>           
+                            <div className={style.catergory_name_div}><label class= {style.container}>Technology<input type="checkbox"  /><span class= {style.checkmark}></span></label></div>
+                            <div className={style.catergory_name_div}><label class= {style.container}>Philosoinputhy <input type="checkbox"  /><span class= {style.checkmark}></span></label></div>
+                            <div className={style.catergory_name_div}><label class= {style.container}>geography<input type="checkbox"  /><span class= {style.checkmark}></span></label></div>
+                            <div className={style.catergory_name_div}><label class= {style.container}>Love<input type="checkbox"  /><span class= {style.checkmark}></span></label></div>
                         </div>
                     </div>
                     <div className={style.rightside}>
